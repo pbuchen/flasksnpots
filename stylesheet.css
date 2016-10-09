@@ -1,0 +1,24 @@
+body {
+	background-color: #0C090A;
+
+}
+ label {
+	color: white;
+	float: right;
+}
+
+input {
+	width: 100px;
+
+
+}
+
+#prices{
+	width: 250px;
+
+}
+#info{
+	float:right;
+	color:yellow;
+
+}
