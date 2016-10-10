@@ -3,31 +3,59 @@
 <head>
 	<title>flask & pots</title>
 	<link rel="stylesheet" href="stylesheet.css">
+	<script src="javascript.js"></script>
 </head>
 <body>
-<div id="prices">
-	<form>
+<div id="flowerprices">
+	<form id="flowerprices">
 		<label for="starlight">Starlight Rose Price:
-			<input id="starlight" name="starlight">
+			<input id="starlight" name="starlight" value=0>
 		</label>
 		<br>
 		<label for="fjarn">Fjarnskaggl Price:
-			<input id="fjarn" name="fjarn">
+			<input id="fjarn" name="fjarn" value=0>
 		</label>
 		<br>
 		<label for="fox">Foxflower Price:
-			<input id="fox" name="fox">
+			<input id="fox" name="fox" value=0>
 		</label>
 		<br>
 		<label for="aethril">Aethril Price:
-			<input id="aethril" name="aethril">
+			<input id="aethril" name="aethril" value=0>
 		</label>
 		<br>
 		<label for="dreamleaf">Dreamleaf Price:
-			<input id="dreamleaf" name="dreamleaf">
+			<input id="dreamleaf" name="dreamleaf" value=0>
 		</label>
 	</form>
 	<p1 id="info"> in gold</p1>
-	</div>
+</div>
+<button type="button" id="calcbutton">mathe?!?!!</button>
+<div id="craftprices">
+	<label>oldwar:
+		<output id="oldwar"></output>
+	</label>
+	<br>
+	<label>deadlygrace:
+		<output id="deadlygrace"></output>
+	</label>
+	<br>
+	<label>str flask:
+		<output id="strflask"></output>
+	</label>
+	<br>
+	<label>agi flask:
+		<output id="agiflask"></output>
+	</label>
+	<br>
+	<label>stam flask:
+		<output id="stamflask"></output>
+	</label>
+	<br>
+	<label>int flask:
+		<output id="intflask"></output>
+	</label>
+</div>
+
 </body>
 </html>

@@ -2,7 +2,7 @@ body {
 	background-color: #0C090A;
 
 }
- label {
+#flowerprices > label {
 	color: white;
 	float: right;
 }
@@ -13,12 +13,27 @@ input {
 
 }
 
-#prices{
+#flowerprices{
 	width: 250px;
 
 }
 #info{
 	float:right;
 	color:yellow;
+
+}
+
+#calc {
+	margin-top: 10px;
+}
+
+#craftprices{
+width: 250px;
+
+}
+
+div#craftprices > label{
+	color: white;
+	floar:left;
 
 }
