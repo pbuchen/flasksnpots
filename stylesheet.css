@@ -37,3 +37,9 @@ div#craftprices > label{
 	floar:left;
 
 }
+
+div#craftinginfo{
+	color:white;
+	margin-left:400px;
+	margin-top:-100px;
+}
