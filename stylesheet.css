@@ -40,10 +40,18 @@ div#craftprices > label{
 
 div#craftinginfo{
 	color:white;
+	border: 1px solid white;
+	width: 350px;
 
 }
 
-#table1{
+button{
+	width: 100px;
+	height: 50px;
+}
+
+#table1, th, td, tr{
 	color: white;
 	width: 400px;
+	border: 1px solid white;
 }
