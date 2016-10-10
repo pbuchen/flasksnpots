@@ -22,7 +22,13 @@ function calcPrices(){
 	d.getElementById("agiflask").value=agi_flask
 	d.getElementById("stamflask").value=sta_flask
 	d.getElementById("intflask").value=int_flask
-	}
+	d.getElementById("oldwarpc").value=(oldwar*0.95).toFixed(2)
+	d.getElementById("deadlygracepc").value=(dgrace*0.95).toFixed(2)
+	d.getElementById("strflaskpc").value=(str_flask*0.95).toFixed(2)
+	d.getElementById("agiflaskpc").value=(agi_flask*0.95).toFixed(2)
+	d.getElementById("stamflaskpc").value=(sta_flask*0.95).toFixed(2)
+	d.getElementById("intflaskpc").value=(int_flask*0.95).toFixed(2)
+}
 
 d.getElementById("calcbutton").onclick = calcPrices;
 }

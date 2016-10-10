@@ -40,6 +40,10 @@ div#craftprices > label{
 
 div#craftinginfo{
 	color:white;
-	margin-left:400px;
-	margin-top:-100px;
+
+}
+
+#table1{
+	color: white;
+	width: 400px;
 }

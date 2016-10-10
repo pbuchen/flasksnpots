@@ -3,6 +3,7 @@
 <head>
 	<title>flask & pots</title>
 	<link rel="stylesheet" href="stylesheet.css">
+
 	<script src="javascript.js"></script>
 </head>
 <body>
@@ -31,31 +32,7 @@
 	<span id="info"> in gold</span>
 </div>
 <button type="button" id="calcbutton">mathe?!?!!</button>
-<div id="craftprices">
-	<label>oldwar:
-		<output id="oldwar"></output>
-	</label>
-	<br>
-	<label>deadlygrace:
-		<output id="deadlygrace"></output>
-	</label>
-	<br>
-	<label>str flask:
-		<output id="strflask"></output>
-	</label>
-	<br>
-	<label>agi flask:
-		<output id="agiflask"></output>
-	</label>
-	<br>
-	<label>stam flask:
-		<output id="stamflask"></output>
-	</label>
-	<br>
-	<label>int flask:
-		<output id="intflask"></output>
-	</label>
-</div>
+
 
 <div id="craftinginfo">
 oldwar = 2*starlight + 4*foxflower +4*fjarn<br>
@@ -65,6 +42,47 @@ agi_flask = 7*starlight + 10*fjarn + 10*foxflower<br>
 sta_flask = 7*starlight + 10*aethril + 10*dreamleaf<br>
 int_flask = 7*starlight + 10*fjarn + 10*dreamleaf<br>
 </div>
+<table id="table1">
+	<thead>
+	<tr>
+		<th>item</th>
+		<th>craftingcost</th>
+		<th>-5% ah</th>
+	</tr>
+	</thead>
+	<tbody id="t1body">
+	<tr>
+		<td>oldwar </td>
+		<td id="oldwart"><output id="oldwar"></output> </td>
+		<td id="oldwarAH"><output id="oldwarpc"></output> </td>
+	</tr>
+	<tr>
+		<td>dgrace </td>
+		<td id="dgracet"><output id="deadlygrace"></output> </td>
+		<td id="dgraceAH"><output id="deadlygracepc"></output> </td> 
+	</tr>
+	<tr>
+		<td>str_flask </td>
+		<td id="str_flaskt"> <output id="strflask"></output></td>
+		<td id="str_flaskAH"><output id="strflaskpc"></output> </td> 
+	</tr>
+	<tr>
+		<td>agi_flask </td>
+		<td id="agi_flaskt"><output id="agiflask"></output> </td>
+		<td id="agi_flaskAH"> <output id="agiflaskpc"></output> </td>
+	</tr>
+	<tr>
+		<td>stam_flask </td>
+		<td id="stam_flask"><output id="stamflask"></output> </td>
+		<td id="stam_flaskAH"> <output id="stamflaskpc"></output> </td>
+	</tr>
+	<tr>
+		<td>int_flask </td>
+		<td id="int_flask"><output id="intflask"></output> </td>
+		<td id="int_flaskAH"><output id="intflaskpc"></output> </td>
+	</tr>
 
+	</tbody>
+</table>
 </body>
 </html>
