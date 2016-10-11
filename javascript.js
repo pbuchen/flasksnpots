@@ -28,7 +28,14 @@ function calcPrices(){
 	d.getElementById("agiflaskpc").value=(agi_flask*0.95).toFixed(2)
 	d.getElementById("stamflaskpc").value=(sta_flask*0.95).toFixed(2)
 	d.getElementById("intflaskpc").value=(int_flask*0.95).toFixed(2)
+	d.getElementById("oldwarr3").value=(oldwar*0.75).toFixed(2)
+	d.getElementById("deadlygracer3").value=(dgrace*0.75).toFixed(2)
+	d.getElementById("strflaskr3").value=(str_flask*0.75).toFixed(2)
+	d.getElementById("agiflaskr3").value=(agi_flask*0.75).toFixed(2)
+	d.getElementById("stamflaskr3").value=(sta_flask*0.75).toFixed(2)
+	d.getElementById("intflaskr3").value=(int_flask*0.75).toFixed(2)
 }
+
 
 d.getElementById("calcbutton").onclick = calcPrices;
 }
