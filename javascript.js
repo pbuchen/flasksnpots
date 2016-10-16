@@ -34,6 +34,8 @@ function calcPrices(){
 	d.getElementById("agiflaskr3").value=(agi_flask*0.70).toFixed(2)
 	d.getElementById("stamflaskr3").value=(sta_flask*0.70).toFixed(2)
 	d.getElementById("intflaskr3").value=(int_flask*0.70).toFixed(2)
+	d.getElementById("cauldronprice").value=(int_flask*5 + str_flask*5 + agi_flask*5 +sta_flask*5).toFixed(2)
+	d.getElementById("cauldronpriceAH").value=((int_flask*5 + str_flask*5 + agi_flask*5 +sta_flask*5)*0.95).toFixed(2)
 }
 
 
